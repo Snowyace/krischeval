@@ -1,0 +1,82 @@
+.container{
+	padding-top: 5%; /*#1*/
+	margin: auto; /*#2*/
+	width:70%;
+}
+
+.education{
+	padding-top: 2%;
+}
+
+#footer{
+	margin-bottom: 2%;
+}
+.headers{
+	padding-top: 1%;
+}
+
+.headers > h1,h2,h3,h4,h5,h6 hr{
+	text-align: right;
+	margin:0;
+}
+
+hr{
+	margin: 0;
+}
+
+.left {
+	display: inline-block; /*#3*/
+	margin: 0;
+
+}
+.left h2{
+	margin: 0;
+	padding-top: 2%;
+	text-align: left;
+}
+.left p{
+	margin: 0;
+	margin-bottom: .5em;
+}
+
+.info{
+	text-align: center;
+}
+
+.info > p {
+	margin: 0;
+}
+
+p.jobtitle {
+	font-style: italic;
+}
+
+.right{
+	float: right; 
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+	padding-top: 2%;
+	text-align: right;
+}
+
+.right > p{
+	margin: 0;
+	
+}
+
+.second{
+	padding-top: 1%;
+}
+/*Customize list style*/
+ul, li{
+	padding: 0;
+	margin: 0;
+	list-style-type: square;
+}
+.skills{
+	padding-left: 3em;
+}
+
+
+

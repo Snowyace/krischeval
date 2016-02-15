@@ -7,3 +7,11 @@
 	margin: 10px;
 	text-align: center;
 }
+@media (min-width: 1200px).col-lg-6 {
+    width: 50%;
+    float:left
+}
+
+@media (min-width: 1200px).col-lg-4 {
+    width: 33.33333333%;
+}

@@ -2,9 +2,11 @@ doctype html
 html(lang='en')
 head
   title Allan Asis
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   link(href='css/bootstrap.min.css', rel='stylesheet')
   link(href='css/bootstrap-theme.min.css', rel='stylesheet')
   link(href='css/makise.css', rel='stylesheet')
+
 body
   div.container
     div.row
@@ -17,29 +19,38 @@ body
             | Allan Asis is a student of Cognitive Science at the University of California, San Diego and part of the human-computer interaction class. He combines computation with crowds, designing systems that enable people to connect and coordinate online.
           a.btn.btn-primary(href='/resume', role='button')  Résumé
 
-      div.col-md-4.col-sm-6
+    div.row
+      div.col-lg-4.col-sm-6
         a(href='/ethnography') 
           div.card
             h1 Cognitive Ethnography
+    
+      div.col-lg-4.col-sm-6
+        a(href='/uaaredesign') 
+          div.card
+            h1 UAA Redesign
+            p (ongoing)
 
-      div.col-md-4.col-sm-6
+      div.col-lg-4.col-sm-6
         a(href='/studyspace') 
           div.card
-            h1 Study Space
-      
-      div.col-md-4.col-sm-6
+            h1 Study Space      
+
+    div.row 
+      div.col-lg-4.col-sm-6
         a(href='http://companionmail.wix.com/lifeisneet') 
           div.card
             h1 Life is NEET
 
-      div.col-md-4.col-sm-6
+      div.col-lg-4.col-sm-6
         a(href='http://youternship.herokuapp.com/') 
           div.card
             h1 Youternship
 
-      div.col-md-4.col-sm-6
+      div.col-lg-4.col-sm-6
         a(href='/photoseries') 
           div.card
             h1 Photo Series
+      
 
         

@@ -6,7 +6,7 @@ head
     link(href='css/bootstrap-theme.min.css', rel='stylesheet')
     link(href='css/makise.css', rel='stylesheet')
 div.container
-    div.row
+    div.row.border
         ul.navbar
             li.navele
                 a(href="/") Home
@@ -18,34 +18,80 @@ div.container
 body.background
     div.container
         div.row
-            div.col-md-12
+            div.col-md-12.profile
                 h1.subtitle Mobile Music App Prototype
                 p.text A rapid 2 week design with a 3 person team at UC San Diego seeking to improve music playlist management through contextual interviews for user scenarios, comparative analysis, and high fidelity prototyping tools. 
+                p.text Special thanks to Michelle Nguyen & Zhihui Huang
         div.row
+            div.col.md-12.profile
+                h1.subtitle Week One
+        div.row.text
+
             div.col-md-12
-                h1.subtitle User Scenarios
+                a(href="https://goo.gl/IpzrmS")
+                    h1.subtitle User Scenarios
                 p We sought to understand the contexts in which people who regularly listen to music through their cell phone. When and where do people do those activities? And how do they do them? 
+                p To extract scenarios we have people show us step by tep of how they would do a process like creating a playlist from discovered music. 
                 h2.subtitle Generate broad scenarios from interviews
-        div.row
+        div.row.text
             div.col-md-6 
-                ul.scenarios.left
+                ul.scenarios
                     li Can you think of other times when you recenlty listened to a playlist?  What were you doing? 
                     li Can you think of other times you made a playlist - a time when you made it in a different way?  For instance, do you ever make your own playlists out of playlists on a provider site?  When was the last time?  Where were you.
                     li Can you first tell me in general terms how you made it? 
             div.col-md-12     
                 img.sample(src="../img/scenario.PNG")
 
-        div.row
+        div.row.text
             div.col-md-12
-                h1.subtitle Comparative Analysis
+                a(href="https://goo.gl/IpzrmS")
+                    h1.subtitle Competitive Analysis
                 p Detailed walkthroughs created from enacting gained user scenarios with different mobile music apps. Comparing the steps across different apps allow us to capture what works and pain points in processes quickly. 
-            div.col-md-12     
-                img.sample(src="../img/compare.PNG")
-            div.col-md-12     
-                img.sample(src="../img/compare2.PNG")
-
             div.col-md-12
-                 iframe(src='https://drive.google.com/embeddedfolderview?id=0B672NPn02XA3bmFhcjlod1ZwV2M&usp=sharing#list', width='800', height='600', frameborder='0')
+                p We first categorize the architecture for each app.  
+                img.sample(src="../img/compare.PNG")
+            div.col-md-12  
+                p We navigate through each app to see how each accomplishes selected user scenarios.
+                img.sample(src="../img/compare2.PNG")
+        div.row
+            div.col.md-12.profile
+                h1.subtitle Week Two
+         div.row.text
+            div.col-md-12
+                h1.subtitle Preparing the Wireframe
+                p From picking two scenarios, first we map out the routes of how they will be accomplished. We pull fluid removal functions from Googleplay
+                p We conceptualize checkbox features to enable a more enthusiast approach to playlist management able to simultaneously manipulate bulks of songs across your library.
+            a(href="../img/route1.jpg" target="_blank")
+                img.sample.left(src="../img/route1.jpg")
+            a(href="../img/route2.jpg" target="_blank")
+                img.sample.left(src="../img/route2.jpg")
+        div.row.text
+            div.col-md-12
+                a(href="https://goo.gl/x3IILo")            
+                    h1.subtitle Design Challenges
+                
+
+                p After conducting walkthroughs with users, we decided not to make big changes to the process of creating a new playlist because we found that users generally did not experience issues.
+                p However, we did think that homepage should be simplified and only show necessary information. To keep it concise, we decided to keep three navigation icons at the bottom bar, which directs the user to homepage, search page, and ‘my collection’ page. These three pages are the most frequently visited pages.
+                p Our main focus of redesign is to enable users to manipulate multiple songs at a time when they manage a playlist.
+        div.row.text
+            div.col-md-12
+                a(href="https://goo.gl/UnBuk1")            
+                    h1.subtitle Comparative Analysis
+                p Finally we evaluate our app's navigate against other music apps to get the gist of performance
+                img.sample(src="../img/compare3.PNG")
+        
+
+        div.row.text
+            div.col-md-12
+                a(href="https://invis.io/TR6GD4B7C")
+                    h1.subtitle The Wireframe
+                p Drawing from our routes scenarios, we constructed a high fidelity prototype allowing users to get a feel for our implemented functions
+                iframe(width='424', height='916', src='//invis.io/ZV6GD489U', frameborder='0', allowfullscreen='')
+
+
+
+          
 
 
 

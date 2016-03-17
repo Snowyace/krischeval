@@ -6,12 +6,11 @@
 
 
 
-
 /*Wallpaper and colors for site//////////////////////////////////*/ 
 
 .background{
 	position: relative;
-	background-color: #AD5255;
+	background-color: #823E40;
 	color:#fff;
 	width:100%;
 	
@@ -118,8 +117,7 @@ white-space: nowrap;
     font-family: sans-serif;
     font-family: kaet;
     font-size: 2em;
-   
-    
+  	border-bottom-style: dotted;
     
 } 
 
@@ -148,15 +146,22 @@ white-space: nowrap;
 .navele > a{
 	color:#fff;	
 }
+
+.border{
+	border-bottom-style: solid;
+	border-color: #fff;
+	border-width: .3em;
+}
 /*/////////////////////////////////////////////*/
 
 /*Profile Header information for all pages /////////////////////////*/
 .profile {
 	width:100%;
-	font-size: 1.5em;
+	font-size: 1.3em;
 	padding: 1em;
 	color:#fff;
 	background-color: #6963C2;
+	margin-bottom: 1em;
 
 }
 
@@ -177,8 +182,8 @@ white-space: nowrap;
 
 /*Screenshots for projects//////////////////////////////////*/ 
 .sample{
-	width: 50%;
-	height: 50%;
+	width: 40%;
+	height: 40%;
 	margin: 1em;
 }
 
@@ -188,5 +193,10 @@ white-space: nowrap;
 
 .top{
 	background-color: #6963C2;
+
+}
+
+.left{
+	float: left;
 
 }

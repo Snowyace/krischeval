@@ -178,6 +178,10 @@ white-space: nowrap;
 	font-family: sans-serif;
 	font-size: 1.2em;
 }
+
+.flip-list-view, .flip-entry-title, .flip-embedded .flip-entry-title{
+	color: #fff;
+}
 /*////////////////////////////////////*/
 
 /*Screenshots for projects//////////////////////////////////*/ 

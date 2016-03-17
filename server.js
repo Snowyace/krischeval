@@ -14,7 +14,7 @@ app.get('/resume',route.resume);
 app.get('/ethnography',route.ethnography);
 app.get('/photoseries',route.photoseries);
 app.get('/studyspace',route.studyspace);
-app.get('/uaaredesign',route.uaaredesign);
+app.get('/musicapp',route.musicapp);
 app.listen(app.get('port'), function(){
 console.log( 'Express started on http://localhost:' +
 app.get('port') );

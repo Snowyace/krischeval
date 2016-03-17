@@ -1,7 +1,10 @@
+body{
+	margin:0;
+}
+
 .container{
-	padding-top: 5%; /*#1*/
 	margin: auto; /*#2*/
-	width:70%;
+	width:90%;
 }
 
 .education{
@@ -49,6 +52,43 @@ hr{
 
 p.jobtitle {
 	font-style: italic;
+}
+
+.navbar2 {
+    list-style-type: none;
+    color:#fff;
+    background-color: #2D2742;
+    display:inline-block;
+    background-image: url(http://www.transparenttextures.com/patterns/clean-textile.png); 
+    width:100%;
+    
+} 
+
+.navbar2{
+	list-style-type: none;
+    color:#000;
+    background-color: #2D2742;
+    background-image: url(http://www.transparenttextures.com/patterns/clean-textile.png); 
+}
+
+.navele2 {
+	list-style-type: none;
+    float: left;
+    padding:10px;
+    margin:10px;
+    color:#fff;
+     
+}
+
+.navele2 > a{
+
+	list-style-type: none;
+	text-decoration: none;
+	color:#fff;	
+}
+
+.navele2:hover{
+	background-color: #4F4F4C;
 }
 
 .right{

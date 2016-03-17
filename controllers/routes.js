@@ -24,8 +24,8 @@ exports.photoseries = function(req, res) {
   res.render('photoseries');
 };
 
-exports.uaaredesign = function(req, res) {
-  res.render('uaaredesign');
+exports.musicapp = function(req, res) {
+  res.render('musicapp');
 };
 
 

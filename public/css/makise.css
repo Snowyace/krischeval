@@ -1,17 +1,192 @@
-.card {
-	width: 300px;
-	border: 1px solid gray;
-	box-shadow: 1px 1px 3px #888;
-	min-height: 400px;
-	padding-: 10px;
-	margin: 10px;
-	text-align: center;
-}
-@media (min-width: 1200px).col-lg-6 {
-    width: 50%;
-    float:left
+
+@font-face{
+	font-family: kaet;
+	src:url(../fonts/kaet.ttf);
 }
 
-@media (min-width: 1200px).col-lg-4 {
-    width: 33.33333333%;
+
+
+
+/*Wallpaper and colors for site//////////////////////////////////*/ 
+
+.background{
+	position: relative;
+	background-color: #AD5255;
+	color:#fff;
+	width:100%;
+	
+}
+
+.background:after{
+	font-family: "ff-meta-serif-web-pro-1","ff-meta-serif-web-pro-2",Georgia,Times,serif;
+	content : "";
+    display: inline;
+    position: absolute;
+    top: 0;
+    left: 0;
+	background-image: url(../img/background.png);
+    width: 100%;
+    height: 100%;
+    opacity : 0.3;
+    z-index: -1;
+   
+}
+/*Projects on homepage//////////////////////////////////*/ 
+.card {
+	color: #fff;
+	width: 300px;
+	box-shadow: 0 0 15px 1px #111;
+	min-height: 100px;
+	padding: 0;
+	margin: 2em;
+	text-align: center;
+	border: none;
+	height:300px;
+	/*font-family: "ff-meta-serif-web-pro-1","ff-meta-serif-web-pro-2",Georgia,Times,serif;*/
+	
+}
+
+.card a{
+	color: #fff;
+
+}
+a:hover{
+	text-decoration: none;
+	
+}
+.card:hover {
+	color: #fff;
+	background-color: #4F4F4C;
+
+	-webkit-transition: all 0.5s linear;
+       -moz-transition: all 0.5s linear;
+        -ms-transition: all 0.5s linear;
+         -o-transition: all 0.5s linear;
+            transition: all 0.5s linear;
+}
+
+
+
+.card.img{
+	width: 100%;
+	height: 100%;
+}
+/*//////////////////////////////////*/ 
+.center{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.container{
+	width:100%;
+}
+
+.fill{
+
+}
+
+.flip-entry-title {	
+	color:#fff;
+}
+
+.leftele{
+	float:left;
+	width:200px;
+	height:200px;
+	padding: 1em;
+	margin:0 auto;
+	
+
+}
+
+.leftbar{
+	list-style-type: none;
+	background-color: #6963C2;
+	padding:0;
+	margin:0;
+	overflow: auto;
+white-space: nowrap;
+
+}
+/*top Navigation bar for site//////////////////////////////////*/
+.navbar {
+    list-style-type: none;
+    color:#fff;
+    background-color: #6963C2;
+    position: relative;
+    margin:0;
+    font-family: sans-serif;
+    font-family: kaet;
+    font-size: 2em;
+   
+    
+    
+} 
+
+.navbar:before{
+	display: inline;
+    position: absolute;
+    top: 0;
+    left: 0;
+	background-image: url(../img/texture.jpg);
+   	width: 100%;
+    opacity : 0.5;
+    z-index: -1;
+}
+
+.navele {
+    float:left;
+    padding:10px;
+    margin:0 auto;
+     
+}
+
+.navele:hover{
+	background-color: #4F4F4C;
+}
+
+.navele > a{
+	color:#fff;	
+}
+/*/////////////////////////////////////////////*/
+
+/*Profile Header information for all pages /////////////////////////*/
+.profile {
+	width:100%;
+	font-size: 1.5em;
+	padding: 1em;
+	color:#fff;
+	background-color: #6963C2;
+
+}
+
+.profile h1 {
+	font-size: 2.5em;
+}
+
+.subtitle{
+	font-family: sans-serif;
+	font-family: kaet; 
+}
+
+.text{
+	font-family: sans-serif;
+	font-size: 1.2em;
+}
+/*////////////////////////////////////*/
+
+/*Screenshots for projects//////////////////////////////////*/ 
+.sample{
+	width: 50%;
+	height: 50%;
+	margin: 1em;
+}
+
+.scenarios{
+	 list-style-type: none;
+}
+
+.top{
+	background-color: #6963C2;
+
 }

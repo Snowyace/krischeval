@@ -193,8 +193,9 @@ a:hover{
 	font-size: 1.2em;
 }
 
-.flip-list-view, .flip-entry-title, .flip-embedded .flip-entry-title{
-	color: #fff;
+.bio{
+	font-family: times;
+	font-style: italic;
 }
 /*////////////////////////////////////*/
 

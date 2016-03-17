@@ -16,7 +16,7 @@
 	
 }
 
-.background:after{
+.background:before{
 	font-family: "ff-meta-serif-web-pro-1","ff-meta-serif-web-pro-2",Georgia,Times,serif;
 	content : "";
     display: inline;
